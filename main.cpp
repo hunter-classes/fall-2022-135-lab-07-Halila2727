@@ -13,5 +13,13 @@
 
 int main()
 {
+  std::string nameOfFile;
 
+  std::cout << "\nEnter the file name (should be bad-code.cpp): ";
+  std::cin >> nameOfFile;
+
+
+  std::cout << "\n";
+  unindent(nameOfFile);
+  std::cout << "\n";
 }
