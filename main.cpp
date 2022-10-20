@@ -22,4 +22,6 @@ int main()
   std::cout << "\n";
   unindent(nameOfFile);
   std::cout << "\n";
+  indent("good-code.cpp");
+  std::cout << "\n";
 }
