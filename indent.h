@@ -2,4 +2,4 @@
 #include <iostream>
 #include <string>
 
-int countChar(string line, char c);
+int countChar(std::string line, char c);
