@@ -39,5 +39,9 @@ void unindent(std::string nameOfFile)
         fin.close(); //close the file object.
     }
 
+    std::ofstream myFile("good-code.cpp");
+    myFile << f;
+    myFile.close();
+
     std::cout << "File after unindenting:\n\n" << f << "\n";
 }
