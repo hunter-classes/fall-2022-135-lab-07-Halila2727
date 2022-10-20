@@ -6,7 +6,10 @@
 
 * GitHub username: Halila2727
 
-* Notes:
+* Notes: How the main executable works:
+1. run "make" and then "./main" commands
+2. enter file with bad code to be fixed: my given bad code is called "bad-code.cpp"
+3. what will be outputted by the executable is the original form of "bad-code.cpp" first, then a version with leading spaces removed, then the final "clean code" version where it is correctly spaced.
 
 
   
