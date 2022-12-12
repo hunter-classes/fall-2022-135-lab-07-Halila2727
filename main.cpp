@@ -42,4 +42,6 @@ int main()
   std::cout << "\n";
   indent("good-code.cpp");
   std::cout << "\n";
+
+  return 0;
 }
