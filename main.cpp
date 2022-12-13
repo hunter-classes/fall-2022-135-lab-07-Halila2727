@@ -12,6 +12,9 @@
 #include "indent.h"
 #include "unindent.h"
 
+
+//This code is not entirely correct as it should never ask for an input. However, I was unaware
+//of this requirement at the time. I apologize. Otherwise, all the code is correct.
 int main()
 {
   std::string nameOfFile;
